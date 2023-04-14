@@ -14,18 +14,6 @@
   width: 81.38rem;
   object-fit: cover;
 }
-.coverFrameInner {
-  position: absolute;
-  height: 7.2%;
-  width: 22.92%;
-  top: 44.34%;
-  right: 3.36%;
-  bottom: 48.46%;
-  left: 73.72%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
 .madeByTeam {
   position: absolute;
   top: 54.7rem;
@@ -1833,21 +1821,7 @@
   background-color: var(--primary-contrast);
   overflow: hidden;
 }
-.homepage {
-  position: absolute;
-  top: 3.33rem;
-  left: 3.5rem;
-  border-radius: 16px;
-  width: 67.28rem;
-  height: 53.17rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 3.22rem;
-  text-align: center;
-  font-size: 0.84rem;
-}
+
 .homepage:hover {
   background: linear-gradient(#fff, #fff), #87550a;
 }
