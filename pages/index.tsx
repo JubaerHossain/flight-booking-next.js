@@ -12,22 +12,11 @@ const CoverFrame: NextPage = () => {
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
       <div className={styles.coverFrame}>
-        <div className={styles.coverFrameChild} />
-        <img className={styles.coverFrameItem} alt="" src="/group-16@2x.png" />
-        <img className={styles.coverFrameInner} alt="" src="/group-17.svg" />
-        <div className={styles.madeByTeam}>Made by Team Locofy</div>
-        <div className={styles.travelWebsiteWrapper}>
-          <div className={styles.travelWebsite}>Travel Website</div>
-        </div>
         <div className={styles.homepage}>
           <div className={styles.heroSection}>
             <header className={styles.topHeader}>
               <div className={styles.topContainer}>
-                <img
-                  className={styles.fickleflightLogoIcon}
-                  alt=""
-                  src="/fickleflight-logo.svg"
-                />
+               
                 <div className={styles.navigationRight}>
                   <div className={styles.navigationMenu}>
                     <div className={styles.explore}>Explore</div>
